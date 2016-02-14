@@ -1,4 +1,14 @@
 # DevPro-week4
+The Shiny application on
+[San Francisco crime incidents](https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry)
+is available from
+
+  https://arcadianlyric.shinyapps.io/DevPro-week4
+
+The Slidify presentation is at
+
+  http://rpubs.com
+
 Instructions
 
 This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
