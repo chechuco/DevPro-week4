@@ -20,7 +20,7 @@ shinyUI(fluidPage(
     headerPanel("San Francisco Crime Data"),
     mainPanel(
         p("This", a(href="http://shiny.rstudio.com/", "Shiny"),
-          "application let you know crime incidents in SF, CA from 12/01/2015 to 12/31/2015. You can map crimes on map by category and find hour distribution."),
+          "application let you know crime incidents in SF, CA from 12/24/2015 to 12/26/2015. You can map crimes on map by category and find hour distribution."),
 p("The SF crime data is from", a(href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry", "here"), ". The source code for the application is available on", a(href="https://github.com/arcadianlyric/DevPro-week4", "GitHub"), "."),
         progressInit(),
         htmlOutput("gvis")
