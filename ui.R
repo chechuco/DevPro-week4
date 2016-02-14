@@ -2,10 +2,20 @@
 #setwd('/Users/YC/github/DevPro-week4')
 # install an older version of shiny
 #devtools::install_github("rstudio/shiny-incubator", ref = "0f343efe9b6c255e6687aaa52b5443cf975f96e7")
+# progressInit issue
+#devtools::install_github('rstudio/rsconnect')
+library(shiny)
+library(shinyIncubator)
+library(googleVis)
+#library(rsconnect)
+#rsconnect::setAccountInfo(name="<ACCOUNT>", token="<TOKEN>", secret="<SECRET>")
+#deployApp()
+progressInit= function () {
+    addResourcePath("progress", system.file("progress", package = "shinyIncubator"))
+    tagList(singleton(tags$head(tags$script(src = "progress/progress.js"), 
+                                tags$link(rel = "stylesheet", type = "text/css", href = "progress/progress.css"))))
+}
 
-#library(shiny)
-#library(shinyIncubator)
-#library(googleVis)
 shinyUI(fluidPage(
     headerPanel("San Francisco Crime Data"),
     mainPanel(
