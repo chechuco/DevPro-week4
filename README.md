@@ -7,7 +7,7 @@ is available from
 
 The Slidify presentation is available at
 
-  http://rpubs.com
+  http://rpubs.com/arcadianlyric/alaska-volcano
 
 ##Instructions
 
